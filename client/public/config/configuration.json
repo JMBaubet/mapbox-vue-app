@@ -1,0 +1,20 @@
+[
+  {
+    "Nom de la variable": "darkMode",
+    "type": "boolean",
+    "description": "Active ou désactive le mode sombre de l'application.",
+    "valeur par défaut": true,
+    "valeur surchargée": null,
+    "valeur min": null,
+    "valeur Max": null
+  },
+  {
+    "Nom de la variable": "serverPollingInterval",
+    "type": "number",
+    "description": "Intervalle en millisecondes pour le polling de l'état du serveur.",
+    "valeur par défaut": 5000,
+    "valeur surchargée": null,
+    "valeur min": 1000,
+    "valeur Max": 60000
+  }
+]
