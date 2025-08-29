@@ -1,0 +1,27 @@
+{
+  "name": "mapbox-vue-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client:dev": "cd client && vite",
+    "client:build": "cd client && vite build",
+    "client:preview": "cd client && vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+        "express": "^4.19.2",
+    "mapbox-gl": "^3.4.0",
+    "vue": "^3.4.21",
+    "vuetify": "^3.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.77.6",
+    "vite": "^5.2.8"
+  }
+}
